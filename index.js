@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGO_URI)
 // console.log('Process=>',process);
 dotenv.config();
 
-const port = process.env.port;
+const port = process.env.PORT || 8000;
 // console.log('this is node server');
 
 // const express = require('express');
